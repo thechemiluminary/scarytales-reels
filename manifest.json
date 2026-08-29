@@ -4,13 +4,17 @@
     "title": "The Camera Was Watching Me",
     "description": "",
     "date": "2026-08-29",
-    "posted": false
+    "posted": true,
+    "video_id": "UZBhSwMofBU",
+    "publish_at": "2026-08-29T10:00:00+01:00"
   },
   "the-eighth-page": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-eighth-page.mp4",
     "title": "The Eighth Page",
     "description": "",
     "date": "2026-08-29",
-    "posted": false
+    "posted": true,
+    "video_id": "8vMLLK58mSA",
+    "publish_at": "2026-08-29T11:30:00+01:00"
   }
 }

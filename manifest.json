@@ -22,7 +22,8 @@
     "title": "The Basement I Wasnt Supposed To See",
     "description": "",
     "date": "2026-08-29",
-    "posted": false
+    "posted": true,
+    "video_id": "wp3rghJUPzY"
   },
   "the-man-who-knew-my-name": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-man-who-knew-my-name.mp4",
@@ -36,6 +37,7 @@
     "title": "The Van At The Gas Station",
     "description": "",
     "date": "2026-08-29",
-    "posted": false
+    "posted": true,
+    "video_id": "4kCe_oTo5Is"
   }
 }

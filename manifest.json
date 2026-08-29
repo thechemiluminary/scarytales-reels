@@ -30,7 +30,8 @@
     "title": "The Man Who Knew My Name",
     "description": "",
     "date": "2026-08-29",
-    "posted": false
+    "posted": true,
+    "video_id": "onN6Rk4lO5A"
   },
   "the-van-at-the-gas-station": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-van-at-the-gas-station.mp4",
@@ -45,6 +46,7 @@
     "title": "The Ride Home",
     "description": "",
     "date": "2026-08-29",
-    "posted": false
+    "posted": true,
+    "video_id": "3aH_CZnJgVo"
   }
 }

@@ -62,7 +62,8 @@
     "title": "The Empty Warehouse",
     "description": "",
     "date": "2026-08-29",
-    "posted": false
+    "posted": true,
+    "video_id": "ahQV7KW5Msk"
   },
   "the-truck-stop-ask": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-truck-stop-ask.mp4",

@@ -16,5 +16,26 @@
     "posted": true,
     "video_id": "8vMLLK58mSA",
     "publish_at": "2026-08-29T11:30:00+01:00"
+  },
+  "the-basement-i-wasnt-supposed-to-see": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-basement-i-wasnt-supposed-to-see.mp4",
+    "title": "The Basement I Wasnt Supposed To See",
+    "description": "",
+    "date": "2026-08-29",
+    "posted": false
+  },
+  "the-man-who-knew-my-name": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-man-who-knew-my-name.mp4",
+    "title": "The Man Who Knew My Name",
+    "description": "",
+    "date": "2026-08-29",
+    "posted": false
+  },
+  "the-van-at-the-gas-station": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-van-at-the-gas-station.mp4",
+    "title": "The Van At The Gas Station",
+    "description": "",
+    "date": "2026-08-29",
+    "posted": false
   }
 }

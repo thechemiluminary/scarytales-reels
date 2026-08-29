@@ -1,0 +1,11 @@
+{
+  "smoke_test": {
+    "slug": "the-smoke-test",
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/smoke-test-release/the-smoke-test.mp4",
+    "title": "Smoke Test Reel",
+    "description": "Automated smoke test asset.",
+    "tags": [
+      "smoke"
+    ]
+  }
+}

@@ -56,5 +56,19 @@
     "date": "2026-08-29",
     "posted": true,
     "video_id": "zBOFJguz7Ys"
+  },
+  "the-empty-warehouse": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-empty-warehouse.mp4",
+    "title": "The Empty Warehouse",
+    "description": "",
+    "date": "2026-08-29",
+    "posted": false
+  },
+  "the-truck-stop-ask": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-truck-stop-ask.mp4",
+    "title": "The Truck Stop Ask",
+    "description": "",
+    "date": "2026-08-29",
+    "posted": false
   }
 }

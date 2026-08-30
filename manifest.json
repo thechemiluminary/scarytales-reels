@@ -16,6 +16,7 @@
     "posted": true,
     "video_id": "8vMLLK58mSA",
     "publish_at": "2026-08-29T11:30:00+01:00"
+    "posted_fb": false
   },
   "the-basement-i-wasnt-supposed-to-see": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-basement-i-wasnt-supposed-to-see.mp4",
@@ -69,7 +70,7 @@
     "date": "2026-08-29",
     "posted": true,
     "video_id": "ahQV7KW5Msk",
-    "posted_fb": true,
+    "posted_fb": false,
     "fb_video_id": "2094205801171326"
   },
   "the-truck-stop-ask": {
@@ -105,7 +106,7 @@
     "description": "",
     "date": "2026-08-30",
     "posted": true,
-    "posted_fb": true,
+    "posted_fb": false,
     "fb_video_id": "2018506662152696",
     "video_id": "R4G4vo6Fk18"
   },
@@ -115,7 +116,7 @@
     "description": "",
     "date": "2026-08-30",
     "posted": true,
-    "posted_fb": true,
+    "posted_fb": false,
     "fb_video_id": "2891459797891478",
     "video_id": "TscLc4_j8To"
   },
@@ -125,7 +126,7 @@
     "description": "",
     "date": "2026-08-30",
     "posted": true,
-    "posted_fb": true,
+    "posted_fb": false,
     "fb_video_id": "1088931944079417",
     "video_id": "R2TCS0lbi0g"
   },
@@ -135,7 +136,7 @@
     "description": "",
     "date": "2026-08-30",
     "posted": true,
-    "posted_fb": true,
+    "posted_fb": false,
     "fb_video_id": "28066493076326424",
     "video_id": "r6zJk-joec0"
   },
@@ -145,7 +146,7 @@
     "description": "",
     "date": "2026-08-30",
     "posted": true,
-    "posted_fb": true,
+    "posted_fb": false,
     "fb_video_id": "1069071609003614",
     "video_id": "lI2ixGsfzMM"
   },

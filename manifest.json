@@ -7,6 +7,7 @@
     "posted": true,
     "video_id": "UZBhSwMofBU",
     "publish_at": "2026-08-29T10:00:00+01:00"
+    "posted_fb": false
   },
   "the-eighth-page": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-eighth-page.mp4",
@@ -71,7 +72,6 @@
     "posted": true,
     "video_id": "ahQV7KW5Msk",
     "posted_fb": false,
-    "fb_video_id": "2094205801171326"
   },
   "the-truck-stop-ask": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-truck-stop-ask.mp4",
@@ -107,7 +107,6 @@
     "date": "2026-08-30",
     "posted": true,
     "posted_fb": false,
-    "fb_video_id": "2018506662152696",
     "video_id": "R4G4vo6Fk18"
   },
   "the-fake-security-guard": {
@@ -117,7 +116,6 @@
     "date": "2026-08-30",
     "posted": true,
     "posted_fb": false,
-    "fb_video_id": "2891459797891478",
     "video_id": "TscLc4_j8To"
   },
   "the-open-back-door": {
@@ -127,7 +125,6 @@
     "date": "2026-08-30",
     "posted": true,
     "posted_fb": false,
-    "fb_video_id": "1088931944079417",
     "video_id": "R2TCS0lbi0g"
   },
   "the-parking-garage-follow": {
@@ -137,7 +134,6 @@
     "date": "2026-08-30",
     "posted": true,
     "posted_fb": false,
-    "fb_video_id": "28066493076326424",
     "video_id": "r6zJk-joec0"
   },
   "the-smoke-detector-camera": {
@@ -147,7 +143,6 @@
     "date": "2026-08-30",
     "posted": true,
     "posted_fb": false,
-    "fb_video_id": "1069071609003614",
     "video_id": "lI2ixGsfzMM"
   },
   "the-open-motel-door": {

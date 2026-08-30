@@ -112,7 +112,9 @@
     "title": "The Fake Rideshare Driver",
     "description": "",
     "date": "2026-08-30",
-    "posted": false
+    "posted": false,
+    "posted_fb": true,
+    "fb_video_id": "2018506662152696"
   },
   "the-fake-security-guard": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-30/the-fake-security-guard.mp4",

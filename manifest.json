@@ -6,7 +6,7 @@
     "date": "2026-08-29",
     "posted": true,
     "video_id": "UZBhSwMofBU",
-    "publish_at": "2026-08-29T10:00:00+01:00"
+    "publish_at": "2026-08-29T10:00:00+01:00",
     "posted_fb": false
   },
   "the-eighth-page": {
@@ -16,7 +16,7 @@
     "date": "2026-08-29",
     "posted": true,
     "video_id": "8vMLLK58mSA",
-    "publish_at": "2026-08-29T11:30:00+01:00"
+    "publish_at": "2026-08-29T11:30:00+01:00",
     "posted_fb": false
   },
   "the-basement-i-wasnt-supposed-to-see": {
@@ -71,7 +71,7 @@
     "date": "2026-08-29",
     "posted": true,
     "video_id": "ahQV7KW5Msk",
-    "posted_fb": false,
+    "posted_fb": false
   },
   "the-truck-stop-ask": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-truck-stop-ask.mp4",
@@ -146,7 +146,9 @@
     "video_id": "lI2ixGsfzMM"
   },
   "the-open-motel-door": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-open-motel-door.mp4",
     "title": "The Open Motel Door",
+    "description": "",
     "date": "2026-08-29",
     "posted": true,
     "posted_fb": false

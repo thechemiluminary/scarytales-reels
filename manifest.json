@@ -83,7 +83,8 @@
     "date": "2026-08-29",
     "posted": true,
     "video_id": "v6bVXda2BYA",
-    "posted_fb": false
+    "posted_fb": true,
+    "fb_video_id": "1829510381749434"
   },
   "the-cop-who-wasnt": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-cop-who-wasnt.mp4",

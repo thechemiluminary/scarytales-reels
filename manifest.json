@@ -134,8 +134,9 @@
     "description": "",
     "date": "2026-08-30",
     "posted": true,
-    "posted_fb": false,
-    "video_id": "R2TCS0lbi0g"
+    "posted_fb": true,
+    "video_id": "R2TCS0lbi0g",
+    "fb_video_id": "1700605151011357"
   },
   "the-parking-garage-follow": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-30/the-parking-garage-follow.mp4",

@@ -26,7 +26,8 @@
     "date": "2026-08-29",
     "posted": true,
     "video_id": "H6inaQBipx0",
-    "posted_fb": false
+    "posted_fb": true,
+    "fb_video_id": "953841737747796"
   },
   "the-man-who-knew-my-name": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-man-who-knew-my-name.mp4",

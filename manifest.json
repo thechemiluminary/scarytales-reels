@@ -114,8 +114,9 @@
     "description": "",
     "date": "2026-08-30",
     "posted": true,
-    "posted_fb": false,
-    "video_id": "R4G4vo6Fk18"
+    "posted_fb": true,
+    "video_id": "R4G4vo6Fk18",
+    "fb_video_id": "1371543364957500"
   },
   "the-fake-security-guard": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-30/the-fake-security-guard.mp4",

@@ -121,7 +121,9 @@
     "title": "The Fake Security Guard",
     "description": "",
     "date": "2026-08-30",
-    "posted": false
+    "posted": false,
+    "posted_fb": true,
+    "fb_video_id": "2891459797891478"
   },
   "the-open-back-door": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-30/the-open-back-door.mp4",

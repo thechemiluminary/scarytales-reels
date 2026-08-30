@@ -36,7 +36,8 @@
     "date": "2026-08-29",
     "posted": true,
     "video_id": "onN6Rk4lO5A",
-    "posted_fb": false
+    "posted_fb": true,
+    "fb_video_id": "1422794103033775"
   },
   "the-van-at-the-gas-station": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-van-at-the-gas-station.mp4",

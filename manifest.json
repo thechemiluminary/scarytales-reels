@@ -101,7 +101,8 @@
     "date": "2026-08-29",
     "posted": true,
     "video_id": "dsAV3t9V3gA",
-    "posted_fb": false
+    "posted_fb": true,
+    "fb_video_id": "870722549311982"
   },
   "the-fake-rideshare-driver": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-30/the-fake-rideshare-driver.mp4",

@@ -139,7 +139,9 @@
     "title": "The Parking Garage Follow",
     "description": "",
     "date": "2026-08-30",
-    "posted": false
+    "posted": false,
+    "posted_fb": true,
+    "fb_video_id": "28066493076326424"
   },
   "the-smoke-detector-camera": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-30/the-smoke-detector-camera.mp4",

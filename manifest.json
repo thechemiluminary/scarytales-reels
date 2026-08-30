@@ -90,7 +90,8 @@
     "date": "2026-08-29",
     "posted": true,
     "video_id": "ufZCdJ0waUg",
-    "posted_fb": false
+    "posted_fb": true,
+    "fb_video_id": "2260209384818985"
   },
   "the-refrigerator-truck": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-refrigerator-truck.mp4",

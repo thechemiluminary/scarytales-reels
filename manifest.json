@@ -24,8 +24,7 @@
     "date": "2026-08-29",
     "posted": true,
     "video_id": "H6inaQBipx0",
-    "posted_fb": true,
-    "fb_video_id": "1562730894783642"
+    "posted_fb": false
   },
   "the-man-who-knew-my-name": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-man-who-knew-my-name.mp4",
@@ -43,8 +42,7 @@
     "date": "2026-08-29",
     "posted": true,
     "video_id": "Pb075pADAWU",
-    "posted_fb": true,
-    "fb_video_id": "1103442398919066"
+    "posted_fb": false
   },
   "the-ride-home": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-ride-home.mp4",
@@ -62,8 +60,7 @@
     "date": "2026-08-29",
     "posted": true,
     "video_id": "zBOFJguz7Ys",
-    "posted_fb": true,
-    "fb_video_id": "1046347008370107"
+    "posted_fb": false
   },
   "the-empty-warehouse": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-empty-warehouse.mp4",
@@ -151,5 +148,11 @@
     "posted_fb": true,
     "fb_video_id": "1069071609003614",
     "video_id": "lI2ixGsfzMM"
+  },
+  "the-open-motel-door": {
+    "title": "The Open Motel Door",
+    "date": "2026-08-29",
+    "posted": true,
+    "posted_fb": false
   }
 }

@@ -55,7 +55,8 @@
     "date": "2026-08-29",
     "posted": true,
     "video_id": "3aH_CZnJgVo",
-    "posted_fb": false
+    "posted_fb": true,
+    "fb_video_id": "28236661149278862"
   },
   "the-wrong-apartment": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-wrong-apartment.mp4",

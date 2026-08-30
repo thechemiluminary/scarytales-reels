@@ -46,7 +46,8 @@
     "date": "2026-08-29",
     "posted": true,
     "video_id": "Pb075pADAWU",
-    "posted_fb": false
+    "posted_fb": true,
+    "fb_video_id": "1370534818627654"
   },
   "the-ride-home": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-29/the-ride-home.mp4",

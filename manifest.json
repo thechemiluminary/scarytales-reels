@@ -148,6 +148,8 @@
     "title": "The Smoke Detector Camera",
     "description": "",
     "date": "2026-08-30",
-    "posted": false
+    "posted": false,
+    "posted_fb": true,
+    "fb_video_id": "1069071609003614"
   }
 }

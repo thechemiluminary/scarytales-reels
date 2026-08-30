@@ -130,7 +130,9 @@
     "title": "The Open Back Door",
     "description": "",
     "date": "2026-08-30",
-    "posted": false
+    "posted": false,
+    "posted_fb": true,
+    "fb_video_id": "1088931944079417"
   },
   "the-parking-garage-follow": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-30/the-parking-garage-follow.mp4",

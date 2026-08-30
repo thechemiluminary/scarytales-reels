@@ -112,44 +112,49 @@
     "title": "The Fake Rideshare Driver",
     "description": "",
     "date": "2026-08-30",
-    "posted": false,
+    "posted": true,
     "posted_fb": true,
-    "fb_video_id": "2018506662152696"
+    "fb_video_id": "2018506662152696",
+    "video_id": "R4G4vo6Fk18"
   },
   "the-fake-security-guard": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-30/the-fake-security-guard.mp4",
     "title": "The Fake Security Guard",
     "description": "",
     "date": "2026-08-30",
-    "posted": false,
+    "posted": true,
     "posted_fb": true,
-    "fb_video_id": "2891459797891478"
+    "fb_video_id": "2891459797891478",
+    "video_id": "TscLc4_j8To"
   },
   "the-open-back-door": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-30/the-open-back-door.mp4",
     "title": "The Open Back Door",
     "description": "",
     "date": "2026-08-30",
-    "posted": false,
+    "posted": true,
     "posted_fb": true,
-    "fb_video_id": "1088931944079417"
+    "fb_video_id": "1088931944079417",
+    "video_id": "R2TCS0lbi0g"
   },
   "the-parking-garage-follow": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-30/the-parking-garage-follow.mp4",
     "title": "The Parking Garage Follow",
     "description": "",
     "date": "2026-08-30",
-    "posted": false,
+    "posted": true,
     "posted_fb": true,
-    "fb_video_id": "28066493076326424"
+    "fb_video_id": "28066493076326424",
+    "video_id": "r6zJk-joec0"
   },
   "the-smoke-detector-camera": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-30/the-smoke-detector-camera.mp4",
     "title": "The Smoke Detector Camera",
     "description": "",
     "date": "2026-08-30",
-    "posted": false,
+    "posted": true,
     "posted_fb": true,
-    "fb_video_id": "1069071609003614"
+    "fb_video_id": "1069071609003614",
+    "video_id": "lI2ixGsfzMM"
   }
 }

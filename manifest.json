@@ -39,6 +39,8 @@
     "gender": "male",
     "duration_sec": 101.3,
     "music": "Tracing_the_Last_Footstep.mp3",
-    "music_ok": true
+    "music_ok": true,
+    "posted_fb": true,
+    "fb_video_id": "1470219044940241"
   }
 }

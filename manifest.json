@@ -23,6 +23,8 @@
     "gender": "male",
     "duration_sec": 95.9,
     "music": "The_Unsolved_Ledger.mp3",
-    "music_ok": true
+    "music_ok": true,
+    "posted_fb": true,
+    "fb_video_id": "2503800610134239"
   }
 }

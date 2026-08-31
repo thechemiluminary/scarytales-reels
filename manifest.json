@@ -10,5 +10,17 @@
     "duration_sec": 121.2,
     "music": "The_Clock_Strikes_Three.mp3",
     "music_ok": true
+  },
+  "the-cop-who-wasnt": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-31/the-cop-who-wasnt.mp4",
+    "title": "The Cop Who Wasnt",
+    "description": "",
+    "date": "2026-08-31",
+    "posted": false,
+    "emotion": null,
+    "gender": null,
+    "duration_sec": 94.2,
+    "music": "The_Weight_Of_A_Secret.mp3",
+    "music_ok": true
   }
 }

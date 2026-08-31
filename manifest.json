@@ -1,16 +1,14 @@
 {
   "the-basement-i-wasnt-supposed-to-see": {
-    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-30/the-basement-i-wasnt-supposed-to-see.mp4",
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-31/the-basement-i-wasnt-supposed-to-see.mp4",
     "title": "The Basement I Wasnt Supposed To See",
     "description": "",
-    "date": "2026-08-30",
+    "date": "2026-08-31",
     "posted": false,
     "emotion": null,
     "gender": null,
     "duration_sec": 121.2,
     "music": "The_Clock_Strikes_Three.mp3",
-    "music_ok": true,
-    "posted_fb": true,
-    "fb_video_id": "1049993251214609"
+    "music_ok": true
   }
 }

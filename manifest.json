@@ -29,32 +29,34 @@
     "fb_video_id": "1384749183080189",
     "video_id": "JNqtVdFkLig"
   },
-    "the-open-motel-door": {
+  "the-open-motel-door": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-31/the-open-motel-door.mp4",
     "title": "I heard someone picking the lock of the motel room next to mine",
     "description": "I was two doors down from a man working the locks of motel rooms with a piece of wire. I dragged a dresser against my door and climbed out the bathroom window to the office. They found him in another room the next week. #truehorror #reallifehorror #ScaryTales",
     "date": "2026-08-31",
-    "posted": false,
+    "posted": true,
     "emotion": "confused",
     "gender": "female",
     "duration_sec": 86.2,
     "music": "Beneath_the_Floorboards.mp3",
     "music_ok": true,
     "posted_fb": true,
-    "fb_video_id": "1384749183080189"
+    "fb_video_id": "1384749183080189",
+    "video_id": "_p9a1T4oSlk"
   },
   "the-refrigerator-truck": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-31/the-refrigerator-truck.mp4",
     "title": "My manager locked me inside a refrigerated trailer and walked away",
     "description": "I was unloading a refrigerated trailer when the doors slammed shut behind me and the locking bar was thrown home. I watched my manager walk away with the keys. The emergency release was the only thing that saved me. #reallifehorror #creepyencounter #ScaryTales",
     "date": "2026-08-31",
-    "posted": false,
+    "posted": true,
     "emotion": "confused",
     "gender": "male",
     "duration_sec": 101.3,
     "music": "Tracing_the_Last_Footstep.mp3",
     "music_ok": true,
     "posted_fb": true,
-    "fb_video_id": "1470219044940241"
+    "fb_video_id": "1470219044940241",
+    "video_id": "_0uF5pyuorI"
   }
 }

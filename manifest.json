@@ -23,6 +23,8 @@
     "gender": null,
     "duration_sec": 94.2,
     "music": "The_Weight_Of_A_Secret.mp3",
-    "music_ok": true
+    "music_ok": true,
+    "posted_fb": true,
+    "fb_video_id": "1593008879135423"
   }
 }

@@ -64,11 +64,12 @@
     "title": "I found a hidden camera in the smoke detector of my rental",
     "description": "A tiny dark spot on the smoke detector of my rental, facing the bed, with a green blink at night. On day two I pulled the cover off and found a lens and a battery pack. The listing photos showed a different detector. I packed and left. #reallifehorror #creepyencounter #ScaryTales",
     "date": "2026-08-31",
-    "posted": false,
+    "posted": true,
     "emotion": "confused",
     "gender": "female",
     "duration_sec": 117.8,
     "music": "Tracing_the_Last_Footstep.mp3",
-    "music_ok": true
+    "music_ok": true,
+    "video_id": "fzDKzt4vKvM"
   }
 }

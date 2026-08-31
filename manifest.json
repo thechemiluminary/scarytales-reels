@@ -12,5 +12,17 @@
     "music_ok": true,
     "posted_fb": true,
     "fb_video_id": "1049993251214609"
+  },
+  "the-cop-who-wasnt": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-31/the-cop-who-wasnt.mp4",
+    "title": "A man in plain clothes with a badge told me to get in his unmarked car",
+    "description": "At 2 a.m. an unmarked car flashed its lights and a man in plain clothes with a silver badge told me I was being detained and needed to get in his car. I refused, drove off, and the real police confirmed a man was impersonating an officer on that road. #truehorror #reallifehorror #ScaryTales",
+    "date": "2026-08-31",
+    "posted": false,
+    "emotion": "sad",
+    "gender": "male",
+    "duration_sec": 95.9,
+    "music": "The_Unsolved_Ledger.mp3",
+    "music_ok": true
   }
 }

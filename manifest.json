@@ -88,6 +88,8 @@
     "gender": "male",
     "duration_sec": 109.7,
     "music": "Under_The_Heavy_Ledger.mp3",
-    "music_ok": true
+    "music_ok": true,
+    "posted_fb": true,
+    "fb_video_id": "1546187689987651"
   }
 }

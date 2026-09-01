@@ -77,5 +77,17 @@
     "fb_video_id": "1014719764904417",
     "posted_tt": true,
     "tt_publish_id": "v_pub_file~v2-1.7680622016931842070"
+  },
+  "the-fake-rideshare-driver": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-01/the-fake-rideshare-driver.mp4",
+    "title": "A fake rideshare driver knew my name at the airport",
+    "description": "My plane landed at midnight and a black sedan rolled up before my app said my driver was near. The man inside said my name - then told me to get in. One wrong word tipped me off. I walked back toward the terminal. #reallifehorror #truehorror #ScaryTales",
+    "date": "2026-09-01",
+    "posted": false,
+    "emotion": "tired",
+    "gender": "male",
+    "duration_sec": 109.7,
+    "music": "Under_The_Heavy_Ledger.mp3",
+    "music_ok": true
   }
 }

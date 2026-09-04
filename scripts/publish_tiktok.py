@@ -25,7 +25,6 @@ import tempfile
 import time
 from datetime import datetime, timezone
 
-import cloudinary.uploader
 import requests
 
 # ---------------------------------------------------------------------------
@@ -121,15 +120,18 @@ def download_video(url: str, dest: str):
 
 
 def upload_to_cloudinary(local_path: str, slug: str) -> str:
-    """Upload video to Cloudinary, return CDN URL."""
-    result = cloudinary.uploader.upload(
-        local_path,
-        resource_type="video",
-        public_id=slug,
-        upload_preset=CF_PRESET,
-        overwrite=True,
-    )
-    return result["secure_url"]
+    """Upload video to Cloudinary via unsigned upload (REST API), return CDN URL."""
+    upload_url = f"https://api.cloudinary.com/v1_1/{CF_CLOUD}/video/upload"
+    with open(local_path, "rb") as f:
+        files = {"file": (os.path.basename(local_path), f, "video/mp4")}
+        data = {
+            "upload_preset": CF_PRESET,
+            "public_id": slug,
+        }
+        r = requests.post(upload_url, files=files, data=data, timeout=600)
+    if r.status_code >= 400:
+        raise RuntimeError(f"Cloudinary HTTP {r.status_code}: {r.text[:500]}")
+    return r.json()["secure_url"]
 
 
 # ---------------------------------------------------------------------------

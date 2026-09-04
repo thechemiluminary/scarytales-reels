@@ -29,7 +29,10 @@
     "music_ok": true,
     "posted_fb": true,
     "fb_video_id": "1384749183080189",
-    "video_id": "JNqtVdFkLig"
+    "video_id": "JNqtVdFkLig",
+    "posted_tt": true,
+    "tt_publish_id": "unknown",
+    "tt_posted_at": "2026-09-04T15:59:54.974818+00:00"
   },
   "the-open-motel-door": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-31/the-open-motel-door.mp4",

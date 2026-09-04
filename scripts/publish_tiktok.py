@@ -3,24 +3,29 @@
 ScaryTales TikTok Publisher — GitHub Actions version.
 
 Reads manifest.json from the scarytales-reels repo, finds reels not yet posted
-to TikTok (posted_tt is falsy), and posts each one via the Lime Social API.
+to TikTok (posted_tt is falsy), downloads each MP4 from GitHub Releases,
+uploads to Cloudinary (CDN), and posts via the Lime Social API.
 
 After each successful post, updates manifest.json with posted_tt + tt_publish_id
 and pushes back to GitHub immediately (no double-posting on partial failures).
 
 Environment variables:
-    LIMESOCIAL_API_KEY     — Lime Social API key
-    LIMESOCIAL_TT_USERNAME — TikTok username connected to Lime Social
-    SCARYTALES_PAT         — GitHub PAT with contents:write on scarytales-reels
+    LIMESOCIAL_API_KEY        — Lime Social API key
+    LIMESOCIAL_TT_USERNAME    — TikTok username connected to Lime Social
+    SCARYTALES_PAT            — GitHub PAT with contents:write on scarytales-reels
+    CLOUDINARY_CLOUD_NAME     — Cloudinary cloud name
+    CLOUDINARY_UPLOAD_PRESET  — Cloudinary unsigned upload preset name
 """
 
 import base64
 import json
 import os
 import sys
+import tempfile
 import time
 from datetime import datetime, timezone
 
+import cloudinary.uploader
 import requests
 
 # ---------------------------------------------------------------------------
@@ -39,6 +44,8 @@ MAX_POST = 10  # safety cap per run
 LIME_KEY = os.environ.get("LIMESOCIAL_API_KEY", "").strip()
 LIME_USER = os.environ.get("LIMESOCIAL_TT_USERNAME", "").strip()
 PAT = os.environ.get("SCARYTALES_PAT", "").strip()
+CF_CLOUD = os.environ.get("CLOUDINARY_CLOUD_NAME", "").strip()
+CF_PRESET = os.environ.get("CLOUDINARY_UPLOAD_PRESET", "").strip()
 
 if not LIME_KEY:
     sys.exit("LIMESOCIAL_API_KEY is not set.")
@@ -46,6 +53,10 @@ if not LIME_USER:
     sys.exit("LIMESOCIAL_TT_USERNAME is not set.")
 if not PAT:
     sys.exit("SCARYTALES_PAT is not set.")
+if not CF_CLOUD:
+    sys.exit("CLOUDINARY_CLOUD_NAME is not set.")
+if not CF_PRESET:
+    sys.exit("CLOUDINARY_UPLOAD_PRESET is not set.")
 
 GH_HEADERS = {
     "Authorization": f"Bearer {PAT}",
@@ -97,6 +108,31 @@ def push_manifest(manifest: dict, sha: str, message: str) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Cloudinary upload
+# ---------------------------------------------------------------------------
+
+def download_video(url: str, dest: str):
+    """Stream-download a video from URL to local path."""
+    with requests.get(url, stream=True, timeout=300) as r:
+        r.raise_for_status()
+        with open(dest, "wb") as f:
+            for chunk in r.iter_content(chunk_size=8192):
+                f.write(chunk)
+
+
+def upload_to_cloudinary(local_path: str, slug: str) -> str:
+    """Upload video to Cloudinary, return CDN URL."""
+    result = cloudinary.uploader.upload(
+        local_path,
+        resource_type="video",
+        public_id=slug,
+        upload_preset=CF_PRESET,
+        overwrite=True,
+    )
+    return result["secure_url"]
+
+
+# ---------------------------------------------------------------------------
 # Lime Social post
 # ---------------------------------------------------------------------------
 
@@ -106,7 +142,7 @@ def post_to_tiktok(video_url: str, caption: str) -> dict:
     Returns the JSON response on success, raises on failure.
     """
     payload = {
-        "accounts": [{"platform": "tiktok", "username": LIME_USER}],
+        "accounts": [{"platform": "tiktok", "username": LIME_USER, "post_mode": "MEDIA_UPLOAD"}],
         "title": caption,
         "mediaUrl": video_url,
     }
@@ -186,9 +222,20 @@ def main():
         print(f"  Caption: {caption[:80]}...")
 
         try:
-            resp = post_to_tiktok(video_url, caption)
-            print(f"  OK — response: {json.dumps(resp)[:200]}")
-            post_id = resp.get("id") or resp.get("post_id") or resp.get("data", {}).get("id", "unknown")
+            with tempfile.TemporaryDirectory() as tmp:
+                local_path = os.path.join(tmp, f"{slug}.mp4")
+                print(f"  Downloading from GitHub...")
+                download_video(video_url, local_path)
+                size_mb = os.path.getsize(local_path) / (1024 * 1024)
+                print(f"  Downloaded {size_mb:.1f} MB")
+
+                print(f"  Uploading to Cloudinary...")
+                cdn_url = upload_to_cloudinary(local_path, slug)
+                print(f"  CDN URL: {cdn_url}")
+
+                resp = post_to_tiktok(cdn_url, caption)
+                print(f"  OK — response: {json.dumps(resp)[:200]}")
+                post_id = resp.get("id") or resp.get("post_id") or resp.get("data", {}).get("id", "unknown")
 
             # Mark posted immediately
             manifest[slug]["posted_tt"] = True

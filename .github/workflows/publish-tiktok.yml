@@ -21,7 +21,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests cloudinary
 
       - name: Post unposted reels to TikTok
         run: python scripts/publish_tiktok.py
@@ -29,3 +29,5 @@ jobs:
           LIMESOCIAL_API_KEY: ${{ secrets.LIMESOCIAL_API_KEY }}
           LIMESOCIAL_TT_USERNAME: ${{ secrets.LIMESOCIAL_TT_USERNAME }}
           SCARYTALES_PAT: ${{ secrets.SCARYTALES_PAT }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_UPLOAD_PRESET: ${{ secrets.CLOUDINARY_UPLOAD_PRESET }}

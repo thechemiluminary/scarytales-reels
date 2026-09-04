@@ -99,6 +99,9 @@
     "music": "Under_The_Heavy_Ledger.mp3",
     "music_ok": true,
     "posted_fb": true,
-    "fb_video_id": "1546187689987651"
+    "fb_video_id": "1546187689987651",
+    "posted_tt": true,
+    "tt_publish_id": "unknown",
+    "tt_posted_at": "2026-09-04T16:00:50.805678+00:00"
   }
 }

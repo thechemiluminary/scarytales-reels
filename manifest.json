@@ -65,7 +65,10 @@
     "music_ok": true,
     "posted_fb": true,
     "fb_video_id": "1470219044940241",
-    "video_id": "_0uF5pyuorI"
+    "video_id": "_0uF5pyuorI",
+    "posted_tt": true,
+    "tt_publish_id": "unknown",
+    "tt_posted_at": "2026-09-04T16:00:32.455265+00:00"
   },
   "the-smoke-detector-camera": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-31/the-smoke-detector-camera.mp4",

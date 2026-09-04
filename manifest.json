@@ -47,7 +47,10 @@
     "music_ok": true,
     "posted_fb": true,
     "fb_video_id": "1384749183080189",
-    "video_id": "_p9a1T4oSlk"
+    "video_id": "_p9a1T4oSlk",
+    "posted_tt": true,
+    "tt_publish_id": "unknown",
+    "tt_posted_at": "2026-09-04T16:00:13.859355+00:00"
   },
   "the-refrigerator-truck": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-08-31/the-refrigerator-truck.mp4",

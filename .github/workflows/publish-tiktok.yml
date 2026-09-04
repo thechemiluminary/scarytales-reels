@@ -1,0 +1,31 @@
+name: Publish Reels to TikTok
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # 2:00 AM UTC daily (10:00 PM ET)
+  workflow_dispatch:        # manual trigger from Actions tab
+
+jobs:
+  publish-tiktok:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Post unposted reels to TikTok
+        run: python scripts/publish_tiktok.py
+        env:
+          LIMESOCIAL_API_KEY: ${{ secrets.LIMESOCIAL_API_KEY }}
+          LIMESOCIAL_TT_USERNAME: ${{ secrets.LIMESOCIAL_TT_USERNAME }}
+          SCARYTALES_PAT: ${{ secrets.SCARYTALES_PAT }}

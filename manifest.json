@@ -173,5 +173,65 @@
     "music_ok": true,
     "posted_fb": true,
     "fb_video_id": "1566959224376358"
+  },
+  "the-car-behind-you": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-car-behind-you.mp4",
+    "title": "A car at 1am mirrors every turn you make",
+    "description": "A car mirrors every turn you make at 1am. You stop at an all-night gas station, and it parks beside you. No one gets out. Watch to the end. #reallifehorror #ScaryTales",
+    "date": "2026-09-06",
+    "posted": false,
+    "emotion": "confused",
+    "gender": "male",
+    "duration_sec": 19.7,
+    "music": "Tracing_the_Last_Footstep.mp3",
+    "music_ok": true
+  },
+  "the-mail-key": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-mail-key.mp4",
+    "title": "A key addressed to 'resident' fits the lockbox on your door",
+    "description": "A key mailed to 'resident' fits the lockbox on your front door. Inside, proof someone watched you all week. Would you open it? #horrorstories #ScaryTales",
+    "date": "2026-09-06",
+    "posted": false,
+    "emotion": "worried",
+    "gender": "female",
+    "duration_sec": 21.2,
+    "music": "The_Unsolved_Ledger.mp3",
+    "music_ok": true
+  },
+  "the-qr-code-on-your-door": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-qr-code-on-your-door.mp4",
+    "title": "A QR code on your door opens a livestream of your bedroom",
+    "description": "A QR code taped to your front door at 2am. You scan it from the porch. Then you see what it sees. Would you unlock? #truehorror #ScaryTales",
+    "date": "2026-09-06",
+    "posted": false,
+    "emotion": "sad",
+    "gender": "female",
+    "duration_sec": 22.0,
+    "music": "The_Weight_Of_A_Secret.mp3",
+    "music_ok": true
+  },
+  "the-roof-access": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-roof-access.mp4",
+    "title": "Your hotel's roof door was welded shut from the outside",
+    "description": "Your hotel's fire stairs end at a door welded shut from the outside. A note is pinned beside it. Do not read it. #truehorror #ScaryTales",
+    "date": "2026-09-06",
+    "posted": false,
+    "emotion": "sad",
+    "gender": "female",
+    "duration_sec": 21.0,
+    "music": "Beneath_the_Floorboards.mp3",
+    "music_ok": true
+  },
+  "the-wrong-suitcase": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-wrong-suitcase.mp4",
+    "title": "Your name is on a suitcase you never owned",
+    "description": "A bag that isn't yours circles the carousel with your name on the tag. When you open it, it was waiting for you. What would you do? #creepyencounter #ScaryTales",
+    "date": "2026-09-06",
+    "posted": false,
+    "emotion": "tired",
+    "gender": "male",
+    "duration_sec": 20.0,
+    "music": "The_Weight_Of_A_Secret.mp3",
+    "music_ok": true
   }
 }

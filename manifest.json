@@ -103,5 +103,65 @@
     "posted_tt": true,
     "tt_publish_id": "unknown",
     "tt_posted_at": "2026-09-04T16:00:50.805678+00:00"
+  },
+  "the-airbnb-i-never-booked": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-airbnb-i-never-booked.mp4",
+    "title": "Someone booked an Airbnb in my name using my photo",
+    "description": "The Airbnb owner welcomed me by name. I never booked. Someone made the reservation with my photo and my address. I never found out who. Follow for more. #microhorror #creepypasta #ScaryTales",
+    "date": "2026-09-06",
+    "posted": false,
+    "emotion": "confused",
+    "gender": "female",
+    "duration_sec": 13.5,
+    "music": "The_Unsolved_Ledger.mp3",
+    "music_ok": true
+  },
+  "the-key-card-in-the-elevator": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-key-card-in-the-elevator.mp4",
+    "title": "My key card was found in an elevator I wasn't in",
+    "description": "The elevator opened at 3am holding my key card - the one in my pocket. My room was already unlocked. I never went back. What would you do? #horrortales #microhorror #ScaryTales",
+    "date": "2026-09-06",
+    "posted": false,
+    "emotion": "sad",
+    "gender": "female",
+    "duration_sec": 15.6,
+    "music": "Tracing_the_Last_Footstep.mp3",
+    "music_ok": true
+  },
+  "the-key-to-my-house": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-key-to-my-house.mp4",
+    "title": "The man on my porch had a key to my house",
+    "description": "I fell asleep with the deadbolt thrown. At 3am a man was on my porch, turning the key to my house over and over. I never opened the door. Would you? #microhorror #truescarystories #ScaryTales",
+    "date": "2026-09-06",
+    "posted": false,
+    "emotion": "worried",
+    "gender": "female",
+    "duration_sec": 15.4,
+    "music": "The_Unsolved_Ledger.mp3",
+    "music_ok": true
+  },
+  "the-man-behind-the-pillar": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-man-behind-the-pillar.mp4",
+    "title": "Halfway to my car, a man asked me if I was alone",
+    "description": "Halfway to my car, a man stepped out from behind a pillar and asked if I was alone. I locked my door just in time. Watch to the end. #creepyencounter #microhorror #ScaryTales",
+    "date": "2026-09-06",
+    "posted": false,
+    "emotion": "tired",
+    "gender": "male",
+    "duration_sec": 14.6,
+    "music": "Tracing_the_Last_Footstep.mp3",
+    "music_ok": true
+  },
+  "the-stranger-at-the-door": {
+    "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-stranger-at-the-door.mp4",
+    "title": "A stranger knocked asking for my father",
+    "description": "A stranger knocked and asked if my father was home. I'd never seen him before. But I saw which room he'd been studying while he waited. #truehorror #microhorror #ScaryTales",
+    "date": "2026-09-06",
+    "posted": false,
+    "emotion": "worried",
+    "gender": "male",
+    "duration_sec": 12.0,
+    "music": "The_Clock_Strikes_Three.mp3",
+    "music_ok": true
   }
 }

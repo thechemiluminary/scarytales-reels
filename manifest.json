@@ -235,7 +235,9 @@
     "duration_sec": 21.0,
     "music": "Beneath_the_Floorboards.mp3",
     "music_ok": true,
-    "video_id": "0ZBSG_9ZxfA"
+    "video_id": "0ZBSG_9ZxfA",
+    "posted_fb": true,
+    "fb_video_id": "2838304783200240"
   },
   "the-wrong-suitcase": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-wrong-suitcase.mp4",

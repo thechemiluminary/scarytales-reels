@@ -114,7 +114,9 @@
     "gender": "female",
     "duration_sec": 13.5,
     "music": "The_Unsolved_Ledger.mp3",
-    "music_ok": true
+    "music_ok": true,
+    "posted_fb": true,
+    "fb_video_id": "1797705787889600"
   },
   "the-key-card-in-the-elevator": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-key-card-in-the-elevator.mp4",

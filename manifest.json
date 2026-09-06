@@ -250,6 +250,8 @@
     "duration_sec": 20.0,
     "music": "The_Weight_Of_A_Secret.mp3",
     "music_ok": true,
-    "video_id": "g6PalVDP8-Y"
+    "video_id": "g6PalVDP8-Y",
+    "posted_fb": true,
+    "fb_video_id": "4681674168822173"
   }
 }

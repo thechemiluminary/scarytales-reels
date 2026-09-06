@@ -170,6 +170,8 @@
     "gender": "male",
     "duration_sec": 12.0,
     "music": "The_Clock_Strikes_Three.mp3",
-    "music_ok": true
+    "music_ok": true,
+    "posted_fb": true,
+    "fb_video_id": "1566959224376358"
   }
 }

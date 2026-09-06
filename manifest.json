@@ -128,7 +128,9 @@
     "gender": "female",
     "duration_sec": 15.6,
     "music": "Tracing_the_Last_Footstep.mp3",
-    "music_ok": true
+    "music_ok": true,
+    "posted_fb": true,
+    "fb_video_id": "2017505025549275"
   },
   "the-key-to-my-house": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-key-to-my-house.mp4",

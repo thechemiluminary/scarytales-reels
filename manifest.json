@@ -190,7 +190,9 @@
     "duration_sec": 19.7,
     "music": "Tracing_the_Last_Footstep.mp3",
     "music_ok": true,
-    "video_id": "NIt-e3VFE2A"
+    "video_id": "NIt-e3VFE2A",
+    "posted_fb": true,
+    "fb_video_id": "2098982571007518"
   },
   "the-mail-key": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-mail-key.mp4",

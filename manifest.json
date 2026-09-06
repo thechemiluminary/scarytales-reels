@@ -156,7 +156,9 @@
     "gender": "male",
     "duration_sec": 14.6,
     "music": "Tracing_the_Last_Footstep.mp3",
-    "music_ok": true
+    "music_ok": true,
+    "posted_fb": true,
+    "fb_video_id": "1390961656544155"
   },
   "the-stranger-at-the-door": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-stranger-at-the-door.mp4",

@@ -189,7 +189,10 @@
     "music_ok": true,
     "posted_fb": true,
     "fb_video_id": "1566959224376358",
-    "video_id": "Z2dJOMCoOhY"
+    "video_id": "Z2dJOMCoOhY",
+    "posted_tt": true,
+    "tt_publish_id": "unknown",
+    "tt_posted_at": "2026-09-07T06:44:31.790271+00:00"
   },
   "the-car-behind-you": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-car-behind-you.mp4",

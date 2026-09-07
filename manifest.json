@@ -135,7 +135,10 @@
     "music_ok": true,
     "posted_fb": true,
     "fb_video_id": "2017505025549275",
-    "video_id": "QuoQYYtro30"
+    "video_id": "QuoQYYtro30",
+    "posted_tt": true,
+    "tt_publish_id": "unknown",
+    "tt_posted_at": "2026-09-07T06:42:40.670190+00:00"
   },
   "the-key-to-my-house": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-key-to-my-house.mp4",

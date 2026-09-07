@@ -240,7 +240,10 @@
     "music_ok": true,
     "video_id": "aOPP-FBczVo",
     "posted_fb": true,
-    "fb_video_id": "3654885534688533"
+    "fb_video_id": "3654885534688533",
+    "posted_tt": true,
+    "tt_publish_id": "unknown",
+    "tt_posted_at": "2026-09-07T06:43:53.556584+00:00"
   },
   "the-roof-access": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-roof-access.mp4",

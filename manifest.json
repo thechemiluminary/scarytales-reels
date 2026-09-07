@@ -117,7 +117,10 @@
     "music_ok": true,
     "posted_fb": true,
     "fb_video_id": "1797705787889600",
-    "video_id": "unyd3-Iagww"
+    "video_id": "unyd3-Iagww",
+    "posted_tt": true,
+    "tt_publish_id": "unknown",
+    "tt_posted_at": "2026-09-07T06:42:04.413728+00:00"
   },
   "the-key-card-in-the-elevator": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-key-card-in-the-elevator.mp4",

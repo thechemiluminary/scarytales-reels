@@ -195,7 +195,10 @@
     "music_ok": true,
     "video_id": "NIt-e3VFE2A",
     "posted_fb": true,
-    "fb_video_id": "2098982571007518"
+    "fb_video_id": "2098982571007518",
+    "posted_tt": true,
+    "tt_publish_id": "unknown",
+    "tt_posted_at": "2026-09-07T06:42:22.726496+00:00"
   },
   "the-mail-key": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-mail-key.mp4",

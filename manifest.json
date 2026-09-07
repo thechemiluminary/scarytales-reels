@@ -153,7 +153,10 @@
     "music_ok": true,
     "posted_fb": true,
     "fb_video_id": "4532188360328367",
-    "video_id": "nHRbuZeN_yM"
+    "video_id": "nHRbuZeN_yM",
+    "posted_tt": true,
+    "tt_publish_id": "unknown",
+    "tt_posted_at": "2026-09-07T06:42:58.826692+00:00"
   },
   "the-man-behind-the-pillar": {
     "file": "https://github.com/thechemiluminary/scarytales-reels/releases/download/2026-09-06/the-man-behind-the-pillar.mp4",
